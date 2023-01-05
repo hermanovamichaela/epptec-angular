@@ -1,0 +1,65 @@
+body {
+  background-color: #DCDCDC;
+}
+
+.seznam {
+  margin-left: 5%;
+  margin-top: 2%;
+  display: block;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.post, .comment_detail {
+  margin: 3%;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  padding-left: 20px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.buttons, .title, .author, .text, .comment_title, .comment_author, .comment_text, .title_com {
+  margin: 15px 25px 15px 25px;
+}
+
+.read_more, .comments_button, .back {
+  border: none;
+  background-color: white !important;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.title_detail {
+  margin: 4%;
+}
+
+.title_com {
+  margin-top: 7%;
+}
+
+.back {
+  margin: 2%;
+}
+
+.comment_title {
+  font-weight: bold;
+}
+
+.comment_author {
+  font-size: small;
+  font-style: italic;
+}
+
+.comment_text {
+  font-size: smaller;
+}
